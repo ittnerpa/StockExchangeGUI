@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Trendlinie\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Binance.API.CSharp.Client.Domain\Binance.API.CSharp.Client.Domain.csproj" />
+    <ProjectReference Include="..\Binance.API.CSharp.Client.Models\Binance.API.CSharp.Client.Models.csproj" />
+    <ProjectReference Include="..\Binance.API.CSharp.Client\Binance.API.CSharp.Client.csproj" />
+  </ItemGroup>
+
+</Project>

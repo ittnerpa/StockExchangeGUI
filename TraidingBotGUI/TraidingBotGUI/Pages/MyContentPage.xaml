@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="TraidingBotGUI.Pages.MyContentPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TraidingBotGUI.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="listViewNews" SelectionMode="None"
+          IsItemClickEnabled="True" Background="Black" ItemClick="listViewNews_ItemClick">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="x:String">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Image Source="Assets/LogoXRP.png" Width="32" Height="32" 
+                       HorizontalAlignment="Left"/>
+                        <TextBlock Text="{x:Bind}" Foreground="White" 
+                           FontSize="15" Grid.Column="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView x:Name="listViewEvents" SelectionMode="None"
+          IsItemClickEnabled="True" Background="Black" ItemClick="listViewNews_ItemClick" Grid.Column="2">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="x:String">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="47"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/LogoXRP.png" Width="32" Height="32" 
+                       HorizontalAlignment="Left"/>
+                        <TextBlock Text="{x:Bind}" Foreground="White" 
+                           FontSize="15" Grid.Column="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

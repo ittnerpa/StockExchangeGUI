@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Patrick\source\repos\BinanceTraderGUI\BinanceTraderGUI\bin\x64\Debug\BinanceTraderGUI_1.0.1.0_x64_Debug.appx
+SymbolPackage=C:\Users\Patrick\source\repos\BinanceTraderGUI\BinanceTraderGUI\AppPackages\BinanceTraderGUI_1.0.1.0_Debug_Test\BinanceTraderGUI_1.0.1.0_x64_Debug.appxsym

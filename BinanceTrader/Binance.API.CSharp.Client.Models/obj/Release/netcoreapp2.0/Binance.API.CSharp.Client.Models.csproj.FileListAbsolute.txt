@@ -1,0 +1,9 @@
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.deps.json
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.dll
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.csprojAssemblyReference.cache
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.AssemblyInfoInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.AssemblyInfo.cs
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.dll
+C:\Users\Patrick\source\repos\BinanceTrader\Binance.API.CSharp.Client.Models\obj\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.pdb

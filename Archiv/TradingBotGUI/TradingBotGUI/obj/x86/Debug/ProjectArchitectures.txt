@@ -1,0 +1,1 @@
+C:\Users\Patrick\source\repos\TradingBotGUI\TradingBotGUI\TradingBotGUI.csproj;x86

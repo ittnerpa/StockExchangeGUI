@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EFF6E45-1DB9-4D6B-A243-3574C0029D6A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BitMex</RootNamespace>
+    <AssemblyName>BitMex</AssemblyName>
+    <DefaultLanguage>de-DE</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17134.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BitMex.API.cs" />
+    <Compile Include="BitmexValues.cs" />
+    <Compile Include="Client\BitmexClientStreams.cs" />
+    <Compile Include="Client\BitmexWebsocketClient.cs" />
+    <Compile Include="Exceptions\BitmexBadInputException.cs" />
+    <Compile Include="Exceptions\BitmexException.cs" />
+    <Compile Include="Json\BitmexJsonSerializer.cs" />
+    <Compile Include="Json\BitmexStringEnumConverter.cs" />
+    <Compile Include="Json\UnixDateTimeConverter.cs" />
+    <Compile Include="Messages\MessageBase.cs" />
+    <Compile Include="Messages\MessageType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\AuthenticationRequest.cs" />
+    <Compile Include="Requests\BookSubscribeRequest.cs" />
+    <Compile Include="Requests\InstrumentSubscribeRequest.cs" />
+    <Compile Include="Requests\LiquidationSubscribeRequest.cs" />
+    <Compile Include="Requests\OrderSubscribeRequest.cs" />
+    <Compile Include="Requests\PingRequest.cs" />
+    <Compile Include="Requests\PositionSubscribeRequest.cs" />
+    <Compile Include="Requests\QuoteSubscribeRequest.cs" />
+    <Compile Include="Requests\RequestBase.cs" />
+    <Compile Include="Requests\SettlementSubscribeRequest.cs" />
+    <Compile Include="Requests\SubscribeRequestBase.cs" />
+    <Compile Include="Requests\TradeBinSubscribeRequest.cs" />
+    <Compile Include="Requests\TradesSubscribeRequest.cs" />
+    <Compile Include="Requests\WalletSubscribeRequest.cs" />
+    <Compile Include="Responses\AuthenticationResponse.cs" />
+    <Compile Include="Responses\BitmexAction.cs" />
+    <Compile Include="Responses\BitmexSide.cs" />
+    <Compile Include="Responses\BitmexTickDirection.cs" />
+    <Compile Include="Responses\Books\BookLevel.cs" />
+    <Compile Include="Responses\Books\BookResponse.cs" />
+    <Compile Include="Responses\ErrorResponse.cs" />
+    <Compile Include="Responses\FilterInfo.cs" />
+    <Compile Include="Responses\InfoResponse.cs" />
+    <Compile Include="Responses\Liquidation\Liquidation.cs" />
+    <Compile Include="Responses\Liquidation\LiquidationResponse.cs" />
+    <Compile Include="Responses\Orders\Order.cs" />
+    <Compile Include="Responses\Orders\OrderResponse.cs" />
+    <Compile Include="Responses\Orders\OrderStatus.cs" />
+    <Compile Include="Responses\PongResponse.cs" />
+    <Compile Include="Responses\Positions\Position.cs" />
+    <Compile Include="Responses\Positions\PositionResponse.cs" />
+    <Compile Include="Responses\Quotes\Quote.cs" />
+    <Compile Include="Responses\Quotes\QuoteResponse.cs" />
+    <Compile Include="Responses\ResponseBase.cs" />
+    <Compile Include="Responses\SubscribeResponse.cs" />
+    <Compile Include="Responses\TradeBins\TradeBin.cs" />
+    <Compile Include="Responses\TradeBins\TradeBinResponse.cs" />
+    <Compile Include="Responses\Trades\Trade.cs" />
+    <Compile Include="Responses\Trades\TradeResponse.cs" />
+    <Compile Include="Responses\Wallets\Wallet.cs" />
+    <Compile Include="Responses\Wallets\WalletResponse.cs" />
+    <Compile Include="Utils\BitmexAuthentication.cs" />
+    <Compile Include="Utils\BitmexConverter.cs" />
+    <Compile Include="Utils\BitmexTime.cs" />
+    <Compile Include="Utils\EnumUtility.cs" />
+    <Compile Include="Utils\StringValue.cs" />
+    <Compile Include="Validations\BmxValidations.cs" />
+    <Compile Include="Websockets\BitmexWebsocketCommunicator.cs" />
+    <Compile Include="Websockets\ReconnectionType.cs" />
+    <EmbeddedResource Include="Properties\BitMex.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Platforms">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog">
+      <Version>2.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Sinks.ColoredConsole">
+      <Version>3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Sinks.Console">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Sinks.File">
+      <Version>4.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Sinks.RollingFile">
+      <Version>3.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Reactive">
+      <Version>4.1.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

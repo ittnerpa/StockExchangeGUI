@@ -1,0 +1,43 @@
+version: 2.0.{build}
+configuration: Release
+image: Visual Studio 2017
+before_build:
+  - dotnet restore .\Bitmex.NET.build.sln
+  - nuget restore .\Bitmex.NET.build.sln
+  
+dotnet_csproj:
+  patch: true
+  file: '**\Bitmex.NET.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
+  
+
+build_script:
+  - dotnet build .\Bitmex.NET.build.sln --configuration Release
+  - dotnet pack Bitmex.NET --configuration Release
+
+test:
+  assemblies:
+    only:
+      - Bitmex.NET.UnitTests.dll
+      - Bitmex.NET.IntegrationTests.dll
+      
+artifacts:
+  - path: Bitmex.NET\bin\Release
+    name: Bitmex.NET_bin
+    
+  - path: '**\Bitmex.NET\bin\Release\*.nupkg'
+  
+notifications:
+- provider: Email
+  to:
+  - semashkin.vg@gmail.com
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: false
+  
+skip_commits:
+  message: /\[skip ci\]/

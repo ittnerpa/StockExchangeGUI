@@ -1,0 +1,16 @@
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\DigitalAsset.Coins.deps.json
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\DigitalAsset.Coins.dll
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\DigitalAsset.Coins.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.dll
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Domain.dll
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.dll
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Domain.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.Models.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\bin\Release\netcoreapp2.0\Binance.API.CSharp.Client.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.csprojAssemblyReference.cache
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.AssemblyInfoInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.AssemblyInfo.cs
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.csproj.CopyComplete
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.dll
+C:\Users\Patrick\source\repos\BinanceTrader\DigitalAsset.Coins\obj\Release\netcoreapp2.0\DigitalAsset.Coins.pdb

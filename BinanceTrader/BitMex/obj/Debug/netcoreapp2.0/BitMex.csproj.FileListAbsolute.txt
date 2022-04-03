@@ -1,0 +1,12 @@
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.csprojAssemblyReference.cache
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.AssemblyInfoInputs.cache
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.AssemblyInfo.cs
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\bin\Debug\netcoreapp2.0\BitMex.deps.json
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\bin\Debug\netcoreapp2.0\BitMex.dll
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.csproj.CopyComplete
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\bin\Debug\netcoreapp2.0\BitMex.pdb
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.dll
+C:\Users\Patrick\source\repos\BinanceTrader\BitMex\obj\Debug\netcoreapp2.0\BitMex.pdb

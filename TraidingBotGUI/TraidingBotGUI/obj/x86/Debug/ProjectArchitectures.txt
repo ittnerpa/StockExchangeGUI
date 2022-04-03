@@ -1,0 +1,12 @@
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client.Models\Binance.API.CSharp.Client.Models.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client.Models\Binance.API.CSharp.Client.Models.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client.Models\Binance.API.CSharp.Client.Models.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client.Models\Binance.API.CSharp.Client.Models.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client\Binance.API.CSharp.Client.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Client\Binance.API.CSharp.Client.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Domain\Binance.API.CSharp.Client.Domain.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Domain\Binance.API.CSharp.Client.Domain.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\Binance.API.CSharp.Domain\Binance.API.CSharp.Client.Domain.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\BitMex\BitMex.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\DigitalAsset.Coins\DigitalAsset.Coins.csproj;x86
+C:\Users\Patrick\source\repos\TraidingBotGUI\TraidingBotGUI\TraidingBotGUI.csproj;x86
